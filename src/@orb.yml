@@ -11,5 +11,5 @@ display:
   source_url: "https://github.com/suzucir/config-author-fixed"
 
 # If your orb requires other orbs, you can import them like this. Otherwise remove the "orbs" stanza.
-orbs
+orbs:
   continuation: circleci/continuation@0.3.1
