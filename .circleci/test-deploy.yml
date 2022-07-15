@@ -16,7 +16,7 @@ jobs:
     steps:
       - checkout
       # Run your orb's commands to validate them.
-      - config-author-fixed/src/scripts/test
+      # - config-author-fixed/
 workflows:
   test-deploy:
     jobs:
