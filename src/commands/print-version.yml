@@ -10,4 +10,5 @@ steps:
       name: Print Environment Version
       command: |
         yq --version
+        python -V
         cat /etc/os-release
