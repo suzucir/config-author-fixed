@@ -42,3 +42,5 @@ steps:
       output: << parameters.continuation-config >>
   - continuation/continue:
       configuration_path: << parameters.continuation-config >>
+  - print-version
+  
