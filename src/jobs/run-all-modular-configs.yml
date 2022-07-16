@@ -25,4 +25,3 @@ steps:
       output: << parameters.continuation-config >>
   - continuation/continue:
       configuration_path: << parameters.continuation-config >>
-      parameters: {"tag": "2022.06"}
