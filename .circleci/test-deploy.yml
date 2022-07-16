@@ -12,11 +12,11 @@ jobs:
   # You may want to add additional validation steps to ensure the commands are working as expected.
   command-tests:
     docker:
-      - image: cimg/base:current
+      - image: cimg/base:2022.06
     steps:
       - checkout
       # Run your orb's commands to validate them.
-      # - config-author-fixed/
+      - config-author-fixed/print-version
 workflows:
   test-deploy:
     jobs:

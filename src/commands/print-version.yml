@@ -1,0 +1,11 @@
+description: >
+  Print the version number of Docker Images and softwares.
+#parameters:
+#  target:
+#    type: string
+#    default: "Hello"
+#    description: "To whom to greet?"
+steps:
+  - run:
+      name: Print Environment Version
+      command: yq --version
