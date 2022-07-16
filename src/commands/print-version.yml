@@ -8,4 +8,6 @@ description: >
 steps:
   - run:
       name: Print Environment Version
-      command: yq --version
+      command: |
+        yq --version
+        cat /etc/os-release
